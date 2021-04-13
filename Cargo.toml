@@ -1,0 +1,13 @@
+[package]
+name = "mint-std140"
+version = "0.1.0"
+authors = ["chubei"]
+edition = "2018"
+description = "Convert mint types to std140 types."
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+std140 = "0.2"
+mint = "0.5"
